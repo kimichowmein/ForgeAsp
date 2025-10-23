@@ -1,6 +1,11 @@
-﻿namespace Forge.Application.Data;
+﻿using Microsoft.EntityFrameworkCore;
 
-public class ApplicationDbContext
+namespace Forge.Application.Data;
+
+public class ApplicationDbContext : DbContext
 {
-    
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
+    {
+    }
 }
