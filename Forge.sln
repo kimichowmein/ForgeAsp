@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Application", "src\Forge.Application\Forge.Application.csproj", "{B8A2AD40-6812-427B-9329-932289E9B432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Web", "src\Forge.Web\Forge.Web.csproj", "{DF7DEC43-4F25-48D1-9A41-FF3275C59379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A2AD40-6812-427B-9329-932289E9B432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A2AD40-6812-427B-9329-932289E9B432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A2AD40-6812-427B-9329-932289E9B432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A2AD40-6812-427B-9329-932289E9B432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7DEC43-4F25-48D1-9A41-FF3275C59379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7DEC43-4F25-48D1-9A41-FF3275C59379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7DEC43-4F25-48D1-9A41-FF3275C59379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7DEC43-4F25-48D1-9A41-FF3275C59379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
